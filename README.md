@@ -25,7 +25,8 @@ To analyze user behavior across a product funnel and identify actionable insight
 
 Instead of relying on static CSV files, this project implements a robust ELT (Extract, Load and Transform) pipeline:
 
-![Architecture.png](assets/Architecture.png)
+<img width="670" height="739" alt="image" src="https://github.com/user-attachments/assets/909275df-193d-418b-9e36-48fa7919c9cd" />
+
 
 ---
 
