@@ -25,7 +25,7 @@ To analyze user behavior across a product funnel and identify actionable insight
 
 Instead of relying on static CSV files, this project implements a robust ELT (Extract, Load and Transform) pipeline:
 
-![Architecture.png](Architecture.png)
+![Architecture.png](assets/Architecture.png)
 
 ---
 
@@ -33,7 +33,7 @@ Instead of relying on static CSV files, this project implements a robust ELT (Ex
 
 EDA is carried out using the three step process of ETL, i.e. Extract, Load and Transform using Pandas, a python library used to convert csv files into useful Data frames for pre-data analysis process. The attached file contains all the steps involved in transforming the data.
 
-[Funnel_EDA.ipynb](Funnel_EDA.ipynb)
+[Funnel_EDA.ipynb](notebooks/Funnel_EDA.ipynb)
 
 ---
 
@@ -123,11 +123,16 @@ Transitioning from data engineering to business intelligence, this phase focuses
 
 The project was designed to address five specific operational pain points:
 
-1. **The Pipeline Bleed:** Where is the company losing money due to potential technical bugs?
-2. **The Golden Channel:** Which traffic source brings in the highest realized revenue?
-3. **The Retargeting Hit-List:** Where do 'Cart Abandoners' primarily originate from?
-4. **The Engagement Threshold:** Is there a correlation between session duration, event volume, and conversion?
-5. **The Ultimate Bottleneck:** What is the sharpest drop-off point in the funnel?
+1. **The Pipeline Bleed:**
+   Where is the company losing money due to potential technical bugs?
+2. **The Golden Channel:**
+   Which traffic source brings in the highest realized revenue?
+3. **The Retargeting Hit-List:**
+   Where do 'Cart Abandoners' primarily originate from?
+4. **The Engagement Threshold:**
+   Is there a correlation between session duration, event volume, and conversion?
+5. **The Ultimate Bottleneck:**
+   What is the sharpest drop-off point in the funnel?
 
 ### Data-Driven Answers & Recommendations
 
@@ -144,9 +149,9 @@ Based on the Power BI dashboards, here are the immediate insights:
 - **The Ultimate Bottleneck:** The overall conversion rate sits at 25.33%, but the sharpest drop-off is the **Cart-to-Purchase** stage. While 63.07% of users successfully add an item to their cart, more than half of them abandon it, resulting in a staggering **59.83% Cart Abandonment Rate**.
     - *Action:* The checkout process needs immediate auditing. We should test guest checkout options, reduce form fields, and highlight secure payment badges to reduce friction.
 
-![Revenue Analysis - Page 1.png](Revenue_Analysis_-_Page_1.png)
+![Revenue Analysis - Page 1.png](powerbi/Revenue_Analysis_-_Page_1.png)
 
-![Behavioral Analysis - Page 2.png](Behavioral_Analysis_-_Page_2.png)
+![Behavioral Analysis - Page 2.png](powerbi/Behavioral_Analysis_-_Page_2.png)
 
 ---
 
