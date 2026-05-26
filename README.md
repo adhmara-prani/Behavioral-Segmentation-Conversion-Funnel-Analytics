@@ -149,9 +149,9 @@ Based on the Power BI dashboards, here are the immediate insights:
 - **The Ultimate Bottleneck:** The overall conversion rate sits at 25.33%, but the sharpest drop-off is the **Cart-to-Purchase** stage. While 63.07% of users successfully add an item to their cart, more than half of them abandon it, resulting in a staggering **59.83% Cart Abandonment Rate**.
     - *Action:* The checkout process needs immediate auditing. We should test guest checkout options, reduce form fields, and highlight secure payment badges to reduce friction.
 
-![Revenue Analysis - Page 1.png](powerbi/Revenue_Analysis_-_Page_1.png)
+![Revenue Analysis - Page 1.png](powerbi/Revenue_Analysis.png)
 
-![Behavioral Analysis - Page 2.png](powerbi/Behavioral_Analysis_-_Page_2.png)
+![Behavioral Analysis - Page 2.png](powerbi/Behavioral_Analysis.png)
 
 ---
 
