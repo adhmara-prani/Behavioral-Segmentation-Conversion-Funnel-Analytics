@@ -1,4 +1,4 @@
-# Funnel Analysis and Customer Segmentation
+# Behavioral Segmentation & Conversion Funnel Analytics
 
 ## Introduction
 
