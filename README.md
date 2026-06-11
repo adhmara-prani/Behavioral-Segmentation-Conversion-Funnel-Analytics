@@ -23,7 +23,7 @@ To analyze user behavior across a product funnel and identify actionable insight
 
 ## Architecture Pipeline
 
-Instead of relying on static CSV files, this project implements a robust ELT (Extract, Load and Transform) pipeline:
+Instead of relying on static CSV files, this project implements a robust ETL (Extract, Transform and Load) pipeline:
 
 <img width="670" height="739" alt="image" src="https://github.com/user-attachments/assets/909275df-193d-418b-9e36-48fa7919c9cd" />
 
@@ -32,7 +32,7 @@ Instead of relying on static CSV files, this project implements a robust ELT (Ex
 
 ## **Phase I: Exploratory Data Analysis (EDA)**
 
-EDA is carried out using the three step process of ETL, i.e. Extract, Load and Transform using Pandas, a python library used to convert csv files into useful Data frames for pre-data analysis process. The attached file contains all the steps involved in transforming the data.
+EDA is carried out using the three step process of ETL, i.e. Extract, Transform and Load using Pandas, a python library used to convert csv files into useful Data frames for pre-data analysis process. The attached file contains all the steps involved in transforming the data.
 
 [Funnel_EDA.ipynb](notebooks/Funnel_EDA.ipynb)
 
@@ -96,7 +96,7 @@ SELECT
 FROM session_times;
 ```
 
-1. Building Funnel Flags using Pivot:
+2. Building Funnel Flags using Pivot:
 
 ```sql
 CREATE VIEW funnel_master_data AS
@@ -158,7 +158,7 @@ Based on the Power BI dashboards, here are the immediate insights:
 
 ## Technical Skills Demonstrated
 
-- **Python:** ELT scripting using `pandas` and `sqlalchemy`.
+- **Python:** Advanced scripting using `pandas` and `sqlalchemy`.
 - **Data Engineering:** Relational database normalization (Primary/Foreign Keys) and schema design.
 - **Advanced SQL:** CTEs, conditional aggregations, datetime manipulation, and View creation.
-- **Business Intelligence:** Live database connections, dimensional modeling, and DAX in Power BI.
+- **Business Intelligence:** Database connections, dimensional modeling, and basic DAX in Power BI.
